@@ -10,7 +10,10 @@ inputs:
     required: true
   group:
     description: "Distribution group"
-    required: true
+    required: false
+  store:
+    description: "Distribution store"
+    required: false
   file:
     description: "Artefact to upload (.apk or .ipa)"
     required: true
